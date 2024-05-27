@@ -1,17 +1,20 @@
-name = "sg-linode" # todo
+name = "SG-GPRC" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 [[routes]]
-pattern = "sg1.abscell.filegear-sg.me"
+pattern = "sggprc.abscell.filegear-sg.me"
 custom_domain = true
 [[routes]]
-pattern = "cms.ruangguru.com.abscell.filegear-sg.me"
+pattern = "cms.ruangguru.com.sggprc.abscell.filegear-sg.me"
 custom_domain = true
 [[routes]]
-pattern = "gw.ruangguru.com.abscell.filegear-sg.me"
+pattern = "gw.ruangguru.com.sggprc.abscell.filegear-sg.me"
+custom_domain = true
+[[routes]]
+pattern = "104.18.2.2.sggprc.abscell.filegear-sg.me"
 custom_domain = true
 
 [vars]
